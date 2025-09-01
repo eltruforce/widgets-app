@@ -6,7 +6,7 @@ class MenuItem {
   final String link;
   final IconData icon;
 
-const  MenuItem({
+  const MenuItem({
     required this.title,
     required this.subTitle,
     required this.link,
@@ -27,10 +27,16 @@ const appMenuItems = <MenuItem>[
     link: '/cards',
     icon: Icons.credit_card,
   ),
-    MenuItem(
-    title: 'ProgressIndicators',
+  MenuItem(
+    title: 'Progress Indicators',
     subTitle: 'General and controlled',
     link: '/progress',
     icon: Icons.refresh_rounded,
+  ),
+  MenuItem(
+    title: 'Snackbars and dialogs',
+    subTitle: 'Indicators on screen',
+    link: '/snackbars',
+    icon: Icons.info_outline,
   ),
 ];
